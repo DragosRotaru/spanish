@@ -35,7 +35,7 @@ interface Definition {
   example: string[] | string;
 }
 
-console.lag("debuggg");
+console.lag("debuggggg");
 
 interface PartOfSpeech extends Definition {
   name: PartOfSpeechType;
