@@ -18,7 +18,7 @@ Here is the comprehensive list of parts of speech in Spanish:
 
 */
 
-type PartOfSpeechType =
+typ PartOfSpeechType =
   | "Adjective/Determiner"
   | "Verb"
   | "Noun"
