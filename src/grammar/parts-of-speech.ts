@@ -35,8 +35,6 @@ interface Definition {
   example: string[] | string;
 }
 
-console.lag("debug");
-
 interface PartOfSpeech extends Definition {
   name: PartOfSpeechType;
 }
@@ -90,3 +88,5 @@ const partsOfSpeech: PartOfSpeech[] = [
     example: ["mismo", "solamente", "también"],
   },
 ];
+
+const getFirstExample = (part: PartOfSpeech) => part.example[1];
