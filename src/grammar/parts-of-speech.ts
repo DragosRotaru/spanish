@@ -88,3 +88,5 @@ const partsOfSpeech: PartOfSpeech[] = [
     example: ["mismo", "solamente", "también"],
   },
 ];
+
+const getFirstExample = (part: PartOfSpeech) => part.example[1]
