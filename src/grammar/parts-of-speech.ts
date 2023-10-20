@@ -89,3 +89,4 @@ const partsOfSpeech: PartOfSpeech[] = [
   },
 ];
 
+const getFirstExample = (part: PartOfSpeech) => part.example[1]
